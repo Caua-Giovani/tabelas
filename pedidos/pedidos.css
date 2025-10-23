@@ -1,0 +1,44 @@
+
+
+.tabela-1, .tabela-1 th,.tabela-1 tr,.tabela-1 td{
+    border: solid 2px black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.tabela-1 th{
+    background: lightgray;
+    
+}
+
+.tabela-1 tbody tr button{
+    background-color: green;
+    border: transparent;
+    padding: 2px;
+    color: white;
+}
+
+.tabela-2, .tabela-2 th,.tabela-2 tr,.tabela-2 td{
+    border: solid 2px black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.tabela-2 th{
+    background: lightgray;
+    
+}
+
+.green span{
+    color: white;
+    background-color: green;
+}
+
+.yellow{
+    color: orange;
+}
+
+.red{
+    color: red;
+}
+

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt- br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="./tab-produtos-clientes-fidelidades.css">
+<body>
+    <h2>01: Relatório de Produtos</h2>
+    <table class="tabela-01">
+        <caption class="title">Produtos encontrados</caption>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Preço (R$)</th>
+                <th>Categoria</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Mouse Gamer</td>
+                <td>59,90</td>
+                <td>Eletrônicos</td>
+            </tr>
+            <tr class="purple">
+                <td>Teclado Gamer</td>
+                <td>129,90</td>
+                <td>Eletrônicos</td>
+            </tr>
+            <tr>
+                <td>Fone Gamer</td>
+                <td>79,90</td>
+                <td>Eletrônicos</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>Dados extraídos em 23/10/2025</td>
+            </tr>
+        </tfoot>
+    </table>
+    <h2>02: Tabela de Clientes</h2>
+    <table class="tabela-02">
+        <caption class="title">Cadastro de Clientes</caption>
+        <thead>
+            <tr>
+                <th colspan="4">CLIENTES</th>
+            </tr>
+            <tr>
+                <th rowspan="2">Código</th>
+                <th rowspan="2">Nome</th>
+                <th colspan="2">Documentos</th>
+            </tr>
+            <tr>
+                <th>RG</th>
+                <th>CPF</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>001</td>
+                <td>João da Silva</td>
+                <td>00.000.000-00</td>
+                <td>000.000.000-00</td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>João de Souza</td>
+                <td>00.000.000-00</td>
+                <td>000.000.000-00</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>03: Tabela de Fidelidade</h2>
+    <table class="tabela-03">
+        <caption class="title">Clientes</caption>
+        <thead>
+            <tr>
+                <th colspan="4">Eletrônicos</th>
+            </tr>
+            <tr>
+                <th rowspan="2">Código</th>
+                <th rowspan="2">Tipo</th>
+                <th rowspan="2">Cliente</th>
+                <th colspan="2">Estilo</th>
+            </tr>
+
+            <tr>
+                <th>Preto</th>
+                <th>Branco</th>
+            </tr>
+            
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>001</td>
+                <td>Mecânico</td>
+                <td>Maria</td>
+                <td>SIM</td>
+                <td>NÃO</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

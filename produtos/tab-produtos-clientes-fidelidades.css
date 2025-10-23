@@ -1,0 +1,35 @@
+
+.tabela-01, .tabela-01 th,.tabela-01 tr,.tabela-01 td{
+    border: solid 2px black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.tabela-01{
+    color: white;
+}
+
+.tabela-01 thead tr{
+    background-color: black;
+}
+
+.tabela-01 tbody tr{
+    background-color:crimson;
+    
+}
+
+.tabela-01 tfoot tr{
+    background-color:crimson;
+    
+}
+
+.title{
+    background-color:bisque;
+    margin: 10px 0;
+    color: purple;
+    font-weight: bold;
+}
+
+.purple{
+    background-color: purple !important;
+}
